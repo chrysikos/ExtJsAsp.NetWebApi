@@ -1,0 +1,44 @@
+/**
+ * @class Ext.plugin.PullRefresh
+ */
+
+.#{$prefix}pullrefresh {
+    @include st-box;
+    @include st-box-orient(horizontal);
+    @include st-box-align(center);
+    @include st-box-pack(center);
+    @include st-box-direction(normal, row);
+
+    bottom: auto !important;
+    height: auto !important;
+
+    &.#{$prefix}loading {
+        .#{$prefix}pullrefresh-loading-wrap {
+            display: block;
+        }
+
+        .#{$prefix}pullrefresh-arrow {
+            display: none;
+        }
+    }
+
+    &.#{$prefix}loaded {
+        .#{$prefix}pullrefresh-arrow {
+            visibility: hidden;
+        }
+    }
+
+    &.#{$prefix}overlay {
+        z-index: 5;
+        position: absolute;
+    }
+}
+
+.#{$prefix}pullrefresh-wrap {
+    text-align: center;
+}
+
+.#{$prefix}pullrefresh-loading-wrap {
+    display: none;
+    position: relative;
+}

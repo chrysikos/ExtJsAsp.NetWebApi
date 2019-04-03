@@ -1,0 +1,77 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.539
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0.Presentation Layer", "0.Presentation Layer", "{E79E4425-4384-421B-96F6-8C72D27F053E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.AppService Layer", "1.AppService Layer", "{30CF390D-B3C2-455F-9613-68B2EB7FD3FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CaseStudy.AppService", "CaseStudy.AppService\CaseStudy.AppService.csproj", "{DC79A2E7-A89B-4210-BC0C-15C8032747AA}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "CaseStudy.Presentation", "CaseStudy.Presentation\", "{0EFBA0D2-1955-4D4F-AA4C-3B0E73227413}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.6.1"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_51237"
+		Debug.AspNetCompiler.PhysicalPath = "CaseStudy.Presentation\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_51237\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_51237"
+		Release.AspNetCompiler.PhysicalPath = "CaseStudy.Presentation\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_51237\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "51237"
+		SlnRelativePath = "CaseStudy.Presentation\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.Domain Layer", "2.Domain Layer", "{5209218E-BD25-44A2-B0CD-A5940CF5E91D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CaseStudy.Domain", "CaseStudy.Domain\CaseStudy.Domain.csproj", "{435968EC-F880-46FB-8DBA-BBB7E8C0FC76}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.Persistence Layer", "3.Persistence Layer", "{BE5308D5-741F-4EC5-99D7-738A7D74C8B3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CaseStudy.Persistence", "CaseStudy.Persistence\CaseStudy.Persistence.csproj", "{B9BCAE71-0259-4F45-B1F7-96C1CE7EEBF8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DC79A2E7-A89B-4210-BC0C-15C8032747AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC79A2E7-A89B-4210-BC0C-15C8032747AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC79A2E7-A89B-4210-BC0C-15C8032747AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC79A2E7-A89B-4210-BC0C-15C8032747AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0EFBA0D2-1955-4D4F-AA4C-3B0E73227413}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0EFBA0D2-1955-4D4F-AA4C-3B0E73227413}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0EFBA0D2-1955-4D4F-AA4C-3B0E73227413}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{0EFBA0D2-1955-4D4F-AA4C-3B0E73227413}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{435968EC-F880-46FB-8DBA-BBB7E8C0FC76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{435968EC-F880-46FB-8DBA-BBB7E8C0FC76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{435968EC-F880-46FB-8DBA-BBB7E8C0FC76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{435968EC-F880-46FB-8DBA-BBB7E8C0FC76}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9BCAE71-0259-4F45-B1F7-96C1CE7EEBF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9BCAE71-0259-4F45-B1F7-96C1CE7EEBF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9BCAE71-0259-4F45-B1F7-96C1CE7EEBF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9BCAE71-0259-4F45-B1F7-96C1CE7EEBF8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DC79A2E7-A89B-4210-BC0C-15C8032747AA} = {30CF390D-B3C2-455F-9613-68B2EB7FD3FE}
+		{0EFBA0D2-1955-4D4F-AA4C-3B0E73227413} = {E79E4425-4384-421B-96F6-8C72D27F053E}
+		{435968EC-F880-46FB-8DBA-BBB7E8C0FC76} = {5209218E-BD25-44A2-B0CD-A5940CF5E91D}
+		{B9BCAE71-0259-4F45-B1F7-96C1CE7EEBF8} = {BE5308D5-741F-4EC5-99D7-738A7D74C8B3}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {005F8E01-188B-4886-A51D-87848EA74888}
+	EndGlobalSection
+EndGlobal
